@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.prokarma.valmontapp_mobile" android:versionName="0.2" android:versionCode="1">
+	<uses-sdk android:minSdkVersion="25" android:targetSdkVersion="33" />
+	<application android:label="ValmontApp.Mobile.Android" android:theme="@style/MainTheme">
+		<activity android:name="microsoft.identity.client.BrowserTabActivity" android:configChanges="orientation|screenSize" android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="msal750bd4fc-f00b-4b24-b5df-8d0be6cf843a" android:host="auth" />
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>

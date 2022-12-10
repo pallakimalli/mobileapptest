@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ValmontApp.Mobile.Views.UserDetailsPage"
+    xmlns:local="clr-namespace:ValmontApp.Mobile.CustomControls"
+    NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#005F83"  CornerRadius="0" HasShadow="False" IsClippedToBounds="True">
+                <local:HeaderView x:Name="NavigationHeader"/>
+            </Frame>
+           
+            <StackLayout Margin="40,20,40,0" VerticalOptions="FillAndExpand" >
+                 <Button x:Name="BackButton"
+                         BackgroundColor="Red"
+                         Margin="0" Text="Back"
+                         HorizontalOptions="StartAndExpand"
+                         IsVisible="true"
+                         Clicked="BackButton_Clicked" />
+                <Label Text="A business card profile has been started for you. Manage your profile to edit or add content." TextColor="Black"/>
+                <Frame BorderColor="Black"
+                   CornerRadius="0"
+                   VerticalOptions="CenterAndExpand"
+                   HasShadow="False" Margin="0,20,0,0">
+                    <Grid>
+
+                        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="1">
+                            <StackLayout>
+                                <Grid>
+                                    <StackLayout HorizontalOptions="End" VerticalOptions="Start">
+                                        <StackLayout Orientation="Vertical" BackgroundColor="#005F83" >
+                                            <Image Source="valmont_logo_white.png" HorizontalOptions="End" Margin="30,20,8,0"/>
+                                            <Label Text="Conserving Resources. Improving Life.®"  HorizontalTextAlignment="End" HorizontalOptions="End" TextColor="White"  Margin="30,0,8,0"/>
+                                            <BoxView/>
+                                        </StackLayout>
+                                        <BoxView BackgroundColor="Transparent" HeightRequest="20"/>
+                                    </StackLayout>
+                                    <StackLayout HorizontalOptions="Start" VerticalOptions="End">
+                                        <Frame  WidthRequest="80" HeightRequest="80"
+                                                BackgroundColor="Black" Margin="16,0,0,0"
+                                                Padding="0" CornerRadius="40" HasShadow="False">
+                                            <Image Source="valmont_logo_white.png"
+                                                   HorizontalOptions="Center"
+                                                   VerticalOptions="Center"/>
+                                        </Frame>
+                                    </StackLayout>
+
+                                </Grid>
+                                <StackLayout >
+                                    <StackLayout >
+
+                                        <Label x:Name="NameLabel" Text="Ashley" FontAttributes="Bold" FontSize="Title"/>
+                                        <Label x:Name="JobTitleLabel" Text="Manager" FontAttributes="Bold"/>
+                                        <Label x:Name="CompanyLabel" Text="Valmont Industries, Inc." FontAttributes="Bold"/>
+                                        <Label x:Name="UrlLabel" Text="www.valmont.com" FontAttributes="Bold"/>
+
+                                    </StackLayout>
+                                    <StackLayout Margin="0,16,0,0" >
+                                        <Label x:Name="CompanyName" Text="Green wood village, &#x0a;Colorado" />
+
+                                    </StackLayout>
+
+
+
+                                </StackLayout>
+                                 <Grid Margin="0,16,0,0">
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*" />
+                                            <ColumnDefinition Width="9*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition x:Name="OfficePhoneRow"/>
+                                             <RowDefinition x:Name="MobilePhoneRow"/>
+                                             <RowDefinition x:Name="EmailPhoneRow"/>
+                                             <RowDefinition x:Name="ContactPhoneRow"/>
+                                        </Grid.RowDefinitions>
+                                      <Image Source="phone.png" Grid.Column="0" Grid.Row="0"  WidthRequest="20" HeightRequest="20" />
+                                        <Image Source="phone.png" Grid.Column="0" Grid.Row="1"  WidthRequest="20" HeightRequest="20" />
+                                          <Image Source="email.png" Grid.Column="0" Grid.Row="2"  WidthRequest="20" HeightRequest="20" />
+                                          <Image Source="contact.png" Grid.Column="0" Grid.Row="3"  WidthRequest="20" HeightRequest="20" />
+
+                                         <Label Text="#### #### ####" Grid.Column="1" Grid.Row="0" WidthRequest="20" HeightRequest="20" />
+                                          <Label Text="#### #### ####" Grid.Column="1" Grid.Row="1" WidthRequest="20" HeightRequest="20" />
+                                          <Label x:Name = "EmailAddressLabel" Text="####@valmont.com" Grid.Column="1" Grid.Row="2" WidthRequest="20" HeightRequest="20"/>
+                                          <Label Text="Save Contact" Grid.Column="1" Grid.Row="3" WidthRequest="20" HeightRequest="20"/>
+                                     
+                                    </Grid>
+
+
+
+
+                            </StackLayout>
+
+
+
+                        </ScrollView>
+
+
+                    </Grid>
+
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="Manage" HorizontalOptions="StartAndExpand"  />
+
+                    <Button Text="Share" Clicked="Share_CliCked" HorizontalOptions="EndAndExpand" />
+                </StackLayout>
+                <BoxView/>
+                <BoxView/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

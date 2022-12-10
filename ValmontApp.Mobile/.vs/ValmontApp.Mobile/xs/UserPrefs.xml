@@ -1,0 +1,74 @@
+﻿<Properties StartupConfiguration="{2453125E-BEDB-4DB2-8783-C2420E29D886}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_2_API_30-2" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ValmontApp.Mobile/ValmontApp.Mobile/Views/LoginPage.xaml.cs">
+    <Files>
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/CustomControls/CustomEntry.cs" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.Android/Resources/CustomEntryRender.cs" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.Android/Resources/drawable/black_rect.xml" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Views/HomePage.xaml" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Views/HomePage.xaml.cs" Line="12" Column="35" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Views/UserDetailsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Views/LoginPage.xaml" Line="28" Column="45" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Views/LoginPage.xaml.cs" Line="39" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Views/UserDetailsPage.xaml" Line="1" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/App.xaml" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/CustomControls/HeaderView.xaml" Line="1" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/CustomControls/HeaderView.xaml.cs" Line="1" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.iOS/Info.plist" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.Android/Properties/AssemblyInfo.cs" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.Android/Properties/AndroidManifest.xml" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.Android/Resources/Resource.designer.cs" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.Android/Resources/AboutResources.txt" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Models/UserContext.cs" Line="18" Column="57" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Util/ShareSocial.cs" Line="1" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Util/ValmontUtils.cs" Line="52" Column="8" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile.iOS/Main.cs" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Services/IRestServices.cs" Line="9" Column="22" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Services/RestServices.cs" Line="29" Column="10" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Util/ValmontConstants.cs" Line="12" Column="1" />
+      <File FileName="ValmontApp.Mobile/ValmontApp.Mobile/Services/ADAuthenticationService.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ValmontApp.Mobile" expanded="True">
+            <Node name="ValmontApp.Mobile" expanded="True">
+              <Node name="CustomControls" expanded="True">
+                <Node name="HeaderView.xaml" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Util" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HomePage.xaml" expanded="True" />
+                <Node name="LoginPage.xaml" expanded="True">
+                  <Node name="LoginPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="UserDetailsPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="ValmontApp.Mobile.Android" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="ValmontApp.Mobile.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ValmontApp.Mobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.089E5249-69E2-4BC3-9CC8-71D7416610F1" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ValmontApp.Mobile.Android PreferredExecutionTarget="Android.Pixel_2_API_30-2" AndroidDesignerPreferredTheme="MainTheme" />
+</Properties>

@@ -1,0 +1,17 @@
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Release/netstandard2.0/ValmontApp.Mobile.deps.json
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Release/netstandard2.0/ValmontApp.Mobile.dll
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Release/netstandard2.0/ref/ValmontApp.Mobile.dll
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Release/netstandard2.0/ValmontApp.Mobile.pdb
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/ValmontApp.Mobile.csproj.AssemblyReference.cache
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/CustomControls/HeaderView.xaml.g.cs
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/Views/HomePage.xaml.g.cs
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/Views/UserDetailsPage.xaml.g.cs
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/ValmontApp.Mobile.AssemblyInfoInputs.cache
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/ValmontApp.Mobile.AssemblyInfo.cs
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/ValmontApp.Mobile.csproj.CoreCompileInputs.cache
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/XamlC.stamp
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/ValmontApp.Mobile.dll
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/ref/ValmontApp.Mobile.dll
+/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/Release/netstandard2.0/ValmontApp.Mobile.pdb

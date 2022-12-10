@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "N1f16gIVrzoBYmzOAk1crYECVz+KbcS6c1Tmr7qiuQZIpf9mBDCWEQj/fcSpaBq+M4BzInwCf+l7ysm29PLs4A==",
+  "success": true,
+  "projectFilePath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/vakhileshwar/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/microsoft.identity.client/4.48.0/microsoft.identity.client.4.48.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/microsoft.identitymodel.abstractions/6.22.0/microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/system.componentmodel.typeconverter/4.3.0/system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/system.runtime.serialization.formatters/4.3.0/system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/system.runtime.serialization.primitives/4.3.0/system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/system.security.securestring/4.3.0/system.security.securestring.4.3.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/vakhileshwar/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
