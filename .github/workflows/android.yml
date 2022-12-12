@@ -24,6 +24,6 @@ jobs:
       run: nuget restore ./ValmontApp.Mobile/ValmontApp.Mobile.sln
 
     - name: Build
-      run: msbuild ./ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.Android/ValmontApp.Mobile.Android.csproj /t:PackageForAndroid /p:Configuration=Debug
+      run: msbuild ./ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.Android/ValmontApp.Mobile.Android.csproj /t:PackageForAndroid /p:Configuration=Release
  
    
