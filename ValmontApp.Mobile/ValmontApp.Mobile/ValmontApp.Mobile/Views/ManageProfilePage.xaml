@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ValmontApp.Mobile.Views.ManageProfilePage"
+    xmlns:behaviours="clr-namespace:ValmontApp.Mobile.Behaviours"
+    xmlns:local="clr-namespace:ValmontApp.Mobile.CustomControls"
+             xmlns:local1="clr-namespace:ValmontApp.Mobile.Converters"
+             x:Name="root">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local1:ImageConverter x:Key="imgConv" />
+            <local1:ImageToBooleanConverter x:Key="imgToBoolConv" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid x:Name="ContentGrid">
+            <Grid Margin="40,80,40,40" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition  Height="*"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <StackLayout Orientation="Horizontal" Grid.Row="0">
+                    <Label x:Name="TitleLabel" Text="Manage Profile"
+                       TextColor="#005F83"
+                        FontAttributes="Bold"
+                       FontFamily="robot" VerticalTextAlignment="Center"
+                       HorizontalOptions="StartAndExpand"/>
+                    <StackLayout HorizontalOptions="End" VerticalOptions="Center" >
+                        <Frame  WidthRequest="60" HeightRequest="60"
+                                                BackgroundColor="White" Margin="16,0,0,0"
+                                                Padding="0" CornerRadius="30" HasShadow="False" IsClippedToBounds="True">
+                            <Image 
+                                   Source="{Binding  MainProfileImage, Converter={StaticResource imgConv}}"
+                                   Aspect="Fill"
+                                   WidthRequest="60"
+                                   HeightRequest="60"
+                                   HorizontalOptions="Center"
+                                                   VerticalOptions="Center"/>
+                        </Frame>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Path=BindingContext.ShowChangeImagePopupCommand, Source={x:Reference root}}"
+                                                  NumberOfTapsRequired="1" />
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+
+                </StackLayout>
+
+
+                <Frame BorderColor="Black"  Grid.Row="1" Padding="8" HasShadow="False" CornerRadius="0">
+                    <ScrollView >
+                        <StackLayout Orientation="Vertical">
+                       
+                                <local:CustomEntry x:Name="FirstNameEntry"
+                                               Placeholder="First Name" MaxLength="50" BackgroundColor="White" Focused="CustomEntry_Focused" />
+                            
+               
+                                <local:CustomEntry x:Name="LastNameEntry" BackgroundColor="White" Placeholder="Last Name" MaxLength="50"  Focused="CustomEntry_Focused"/>
+                        
+
+                          
+                                <local:CustomEntry x:Name="TitleEntry" BackgroundColor="White" Placeholder="Title" MaxLength="50"  Focused="CustomEntry_Focused"/>
+                        
+
+
+                 
+                                <Grid  Grid.Column="0" Grid.Row="0"  >
+                                    <local:CustomEntry x:Name="BusinessSegmentEntry" Placeholder="Business Segments"  Focused="CustomEntry_Focused"/>
+                                    <local:CustomPicker x:Name="BusinessSegmentPicker" Title=""  BackgroundColor="Transparent" SelectedIndexChanged="Segment_SelectedIndexChanged" />
+                                </Grid>
+                 
+
+          
+                                <local:CustomEntry x:Name="EmailEntry" BackgroundColor="White" Placeholder="Email" IsReadOnly="True" TextColor="Gray"/>
+          
+
+                     
+                                <local:CustomEntry x:Name="OfficePhoneEntry" BackgroundColor="White" Placeholder="Office Phone" Keyboard="Numeric" MaxLength="15"  Focused="CustomEntry_Focused" >
+                                    <Entry.Behaviors>
+                                        <behaviours:PhoneNumberBehavior />
+                                    </Entry.Behaviors>
+                                </local:CustomEntry>
+               
+
+                       
+                                <local:CustomEntry x:Name="MobilePhoneEntry" BackgroundColor="White" Placeholder="Mobile Phone" Keyboard="Numeric" MaxLength="15"  Focused="CustomEntry_Focused">
+                                    <Entry.Behaviors>
+                                        <behaviours:PhoneNumberBehavior />
+                                    </Entry.Behaviors>
+                                </local:CustomEntry>
+                   
+
+                            <local:CustomEntry x:Name="Address1Entry" Placeholder="Address1" MaxLength="50"/>
+                            <local:CustomEntry  x:Name="Address2Entry" Placeholder="Address2" MaxLength="50"/>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="7*"/>
+                                    <ColumnDefinition  Width="3*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0" Grid.Row="1" >
+                                    <local:CustomEntry x:Name="CountryEntry" Placeholder="Country"/>
+                                    <local:CustomPicker x:Name="CountryPicker" BackgroundColor="Transparent" SelectedIndexChanged="Address_SelectedIndexChanged"/>
+
+                                </Grid>
+                                <Grid  Grid.Column="1" Grid.Row="0" >
+                                    <local:CustomEntry x:Name="StateEntry"  BackgroundColor="Transparent"  Placeholder="State" />
+                                    <local:CustomPicker x:Name="StatePicker"  BackgroundColor="Transparent"  SelectedIndexChanged="Address_SelectedIndexChanged"/>
+                                </Grid>
+                                <local:CustomEntry x:Name="CityEntry" Placeholder="City" MaxLength="50"/>
+                                <local:CustomEntry x:Name="ZipEntry" Keyboard="Numeric" Grid.Column="1" Grid.Row="1" Placeholder="Zip" MaxLength="5"/>
+                            </Grid>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+                <StackLayout Grid.Row="2">
+                    <Button Text="Save" BackgroundColor="#005F83" TextColor="White" VerticalOptions="Start" HorizontalOptions="Start" WidthRequest="100" Clicked="Save_Clicked"/>
+                </StackLayout>
+            </Grid>
+            <StackLayout HorizontalOptions="FillAndExpand"
+                  VerticalOptions="FillAndExpand"
+                  BackgroundColor="#90000000"
+                         IsVisible="{Binding IsChangeImagePopupVisible}">
+                <StackLayout HorizontalOptions="FillAndExpand"
+                             VerticalOptions="CenterAndExpand"
+                             BackgroundColor="#005F83"
+                             Padding="20"
+                             Margin="20,0,20,0"
+                             Spacing="20"
+                             Orientation="Vertical">
+                    <Image WidthRequest="36"
+                           HeightRequest="36"
+                           HorizontalOptions="Start"
+                           Source="close.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Path=BindingContext.CloseImagePopupCommand, Source={x:Reference root}}"
+                                                  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Frame  WidthRequest="200"
+                            HeightRequest="200"
+                            BackgroundColor="White"
+                            Margin="0,10,0,0"
+                            Padding="0"
+                            HorizontalOptions="CenterAndExpand"
+                            CornerRadius="100"
+                            HasShadow="False"
+                            IsClippedToBounds="True">
+                        <Image 
+                               Source="{Binding  PictureIcon, Converter={StaticResource imgConv}}"
+                               HorizontalOptions="Center"
+                               Aspect="Fill"
+                               WidthRequest="200"
+                               HeightRequest="200"
+                               VerticalOptions="Center" />
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Path=BindingContext.SelectImageCommand, Source={x:Reference root}}"
+                                                  NumberOfTapsRequired="1" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="Start">
+                        <Label Text="Upload" FontAttributes="Bold" TextColor="White" FontSize="18">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Path=BindingContext.UploadCommand, Source={x:Reference root}}"
+                                                      NumberOfTapsRequired="1" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Image WidthRequest="36"
+                               HeightRequest="36"
+                               HorizontalOptions="EndAndExpand"
+                               Source="trash.png"
+                               IsVisible="{Binding  PictureIcon, Converter={StaticResource imgToBoolConv}}">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Path=BindingContext.TrashImagePopupCommand, Source={x:Reference root}}"
+                                                      NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <ActivityIndicator IsRunning="{Binding IsLoading}" x:Name="activityIndicator" VerticalOptions="Center" HorizontalOptions="Center"  Color= "Red" />
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
+

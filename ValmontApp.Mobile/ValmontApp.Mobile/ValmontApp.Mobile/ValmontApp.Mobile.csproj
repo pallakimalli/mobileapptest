@@ -11,10 +11,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
-    <PackageReference Include="Microsoft.Identity.Client" Version="4.48.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+    <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.48.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Xam.Plugin.LatestVersion" Version="2.1.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="CustomControls\" />
@@ -25,6 +28,8 @@
     <None Remove="Models\" />
     <None Remove="Util\" />
     <None Remove="Services\" />
+    <None Remove="Behaviours\" />
+    <None Remove="Xam.Plugin.LatestVersion" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CustomControls\" />
@@ -32,5 +37,6 @@
     <Folder Include="Models\" />
     <Folder Include="Util\" />
     <Folder Include="Services\" />
+    <Folder Include="Behaviours\" />
   </ItemGroup>
 </Project>

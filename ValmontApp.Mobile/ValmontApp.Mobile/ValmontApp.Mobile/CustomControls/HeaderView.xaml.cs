@@ -41,6 +41,7 @@ namespace ValmontApp.Mobile.CustomControls
             ADAuthenticationService.logout();
             Device.BeginInvokeOnMainThread(() =>
             {
+                App.AuthenticationServiceToken = "";
                 Application.Current.MainPage = new LoginPage();
  
             });

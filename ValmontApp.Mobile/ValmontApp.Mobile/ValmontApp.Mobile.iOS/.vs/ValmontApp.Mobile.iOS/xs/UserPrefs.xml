@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{2453125E-BEDB-4DB2-8783-C2420E29D886}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ValmontApp.Mobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.089E5249-69E2-4BC3-9CC8-71D7416610F1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ValmontApp.Mobile.iOS" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>     JArray.Parse(content)</Value>
+          <Value>user</Value>
+          <Value>content</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

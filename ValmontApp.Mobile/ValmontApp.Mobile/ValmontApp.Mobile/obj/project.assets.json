@@ -674,11 +674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
+      "projectUniqueName": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
       "projectName": "ValmontApp.Mobile",
-      "projectPath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
+      "projectPath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
       "packagesPath": "/Users/vakhileshwar/.nuget/packages/",
-      "outputPath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/",
+      "outputPath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vakhileshwar/.config/NuGet/NuGet.Config"

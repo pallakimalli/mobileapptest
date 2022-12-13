@@ -12,7 +12,13 @@
                 </Frame>
                 <StackLayout Margin="40,70,40,0">
                     <Label Text="Welcome!" TextColor="Black" FontFamily="roboto"/>
-                    <local:CustomEntry x:Name="EmailEntry" Placeholder="Email"  HeightRequest="{OnPlatform Android=40}" BackgroundColor="White" Margin="0,20,0,0" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="{OnPlatform Android=65}" />
+                        </Grid.RowDefinitions>
+                        <local:CustomEntry x:Name="EmailEntry" Placeholder="Email" BackgroundColor="White" Margin="0,20,0,0" />
+                    </Grid>
+
                     <Label Text="Please provide your email" TextColor="Black"/>
                     <StackLayout Orientation="Horizontal" Margin="0,20,0,0">
                         <Button BackgroundColor="#005F83" Text="Login with SSO"
@@ -25,7 +31,7 @@
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
-             <ActivityIndicator x:Name="activityIndicator" VerticalOptions="Center" HorizontalOptions="Center" IsRunning="False" Color= "Red" />
+            <ActivityIndicator x:Name="activityIndicator" VerticalOptions="Center" HorizontalOptions="Center" IsRunning="False" Color= "Red" />
         </Grid>
 
     </ContentPage.Content>

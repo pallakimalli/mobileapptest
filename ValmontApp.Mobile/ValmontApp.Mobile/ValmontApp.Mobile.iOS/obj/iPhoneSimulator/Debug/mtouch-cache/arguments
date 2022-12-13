@@ -4,17 +4,17 @@
 	--sgen-conc \
 	'/target-framework:Xamarin.iOS,Version=v1.0' \
 	--http-message-handler=NSUrlSessionHandler \
-	--cache=/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
-	--root-assembly=/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/bin/iPhoneSimulator/Debug/ValmontApp.Mobile.iOS.exe \
+	--cache=/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--root-assembly=/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/bin/iPhoneSimulator/Debug/ValmontApp.Mobile.iOS.exe \
 	'\"--sdkroot=/Users/vakhileshwar/Desktop/Xcode 2.app/Contents/Developer\"' \
 	--targetver=8.0 \
-	--sim=/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/bin/iPhoneSimulator/Debug/ValmontApp.Mobile.iOS.app \
+	--sim=/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/bin/iPhoneSimulator/Debug/ValmontApp.Mobile.iOS.app \
 	--executable=ValmontApp.Mobile.iOS \
 	--nolink \
 	--sdk=16.0 \
 	--aot-options=-O=-float32 \
 	--abi=x86_64 \
-	--symbollist=/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--symbollist=/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
@@ -29,7 +29,7 @@
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Runtime.Serialization.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.Linq.dll \
-	--reference=/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Debug/netstandard2.0/ValmontApp.Mobile.dll \
+	--reference=/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Debug/netstandard2.0/ValmontApp.Mobile.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll \
@@ -215,6 +215,6 @@
 	--reference=/Users/vakhileshwar/.nuget/packages/xamarin.forms/5.0.0.2196/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/vakhileshwar/.nuget/packages/xamarin.forms/5.0.0.2196/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	--reference=/Users/vakhileshwar/.nuget/packages/xamarin.forms/5.0.0.2196/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
-	--reference=/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Debug/netstandard2.0/ValmontApp.Mobile.dll \
-	@/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/response-file.rsp \
-	'--gcc_flags=-Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/Entitlements.xcent' \
+	--reference=/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Debug/netstandard2.0/ValmontApp.Mobile.dll \
+	@/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/response-file.rsp \
+	'--gcc_flags=-Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/Entitlements.xcent' \

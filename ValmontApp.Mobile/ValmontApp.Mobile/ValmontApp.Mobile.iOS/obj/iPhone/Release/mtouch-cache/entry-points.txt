@@ -1,0 +1,87 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_UIApplicationMain
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll

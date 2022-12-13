@@ -14,6 +14,12 @@ using ValmontApp.Mobile.Models;
 using Xamarin.Essentials;
 using ValmontApp.Mobile.Services;
 using ValmontApp.Mobile.Util;
+using Plugin.LatestVersion;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Device = Xamarin.Forms.Device;
+using System.Diagnostics;
 
 namespace ValmontApp.Mobile
 {
@@ -21,6 +27,7 @@ namespace ValmontApp.Mobile
     {
         public LoginPage()
         {
+
             InitializeComponent();
             if (Username != null)
             {
@@ -32,7 +39,26 @@ namespace ValmontApp.Mobile
                 AcquireTokenSilent();
 
             }
+            //checkLatestVersion();
+        
         }
+
+        //TODO: I think wait for it, till we submit first version of the app, we are getting crash for this
+        async void checkLatestVersion()
+        {
+            var isLatest = await CrossLatestVersion.Current.IsUsingLatestVersion();
+
+            if (!isLatest)
+            {
+                var update = await DisplayAlert("New Version", "There is a new version of this app available. Would you like to update now?", "Yes", "No");
+
+                if (update)
+                {
+                    await CrossLatestVersion.Current.OpenAppInStore();
+                }
+            }
+        }
+        
 
 
         async void AcquireTokenSilent()
@@ -49,13 +75,18 @@ namespace ValmontApp.Mobile
                 {
 
                     ActivityIndicator activityIndicator = new ActivityIndicator { IsRunning = true };
-                    var content = await GetHttpContentWithTokenAsync(authResult.AccessToken);
-
+                    //TODO: remove duplications below doe is repeated twice
+                    var ADContent = await GetHttpContentWithTokenAsync(authResult.AccessToken);
+                    var ADUser = new UserContext(ADContent);
+                    App.AuthenticationServiceToken = await App.services.GetAccessToken();
+                    var content = await GetUserProfile(ADUser.EmailAddress);
+                   
                     UpdateUserContent(content);
                 }
           
             } catch(Exception ex)
             {
+                //Crashes.TrackError(ex);
                 Device.BeginInvokeOnMainThread(async () =>
                 {
                     await DisplayAlert("Acquire Silent failed: ", ex.Message, "Dismiss");
@@ -68,11 +99,27 @@ namespace ValmontApp.Mobile
             });
 
         }
+        Version version = AppInfo.Version;
 
-
+        
 
         async void Signin_Tapped(System.Object sender, System.EventArgs e)
         {
+            Analytics.TrackEvent("Login_Button Clicked", new Dictionary<string, string> {
+               { "Email", EmailEntry.Text },
+                { "version",version.ToString()}
+             });
+          
+            //try
+            //{
+                //string hello = null;
+                //Debug.WriteLine("" + hello.Length);
+            //}
+            //catch(Exception ex)
+            //{
+                //Crashes.TrackError(ex);
+            //}
+
             if (ValmontUtils.isvalidEmail(EmailEntry.Text) == false)
             {
                 return;
@@ -101,9 +148,28 @@ namespace ValmontApp.Mobile
                 {
                     Username = EmailEntry.Text;
                     ValmontUtils.saveLoginTime(true);
-                    var user = App.services.GetADUserProfileAsync(authResult.AccessToken, ValmontConstants.microsoftURI);
-                    var content = await GetHttpContentWithTokenAsync(authResult.AccessToken);
-                    UpdateUserContent(content);
+                    //TODO: remove duplications below doe is repeated twice
+                    var ADContent = await GetHttpContentWithTokenAsync(authResult.AccessToken);
+                    var ADUser = new UserContext(ADContent);
+                    try
+                    {
+                        App.AuthenticationServiceToken = await App.services.GetAccessToken();
+                        var content = await GetUserProfile(ADUser.EmailAddress);
+                        //Device.BeginInvokeOnMainThread(async () =>
+                        //{
+                        //    await DisplayAlert("GetUserProfile: ", content, "Dismiss");
+                        //});
+                        UpdateUserContent(content);
+
+                    } catch (Exception ex)
+                    {
+                        Device.BeginInvokeOnMainThread(async () =>
+                        {
+                            await DisplayAlert("App.services.GetAccessToken() details: ", ex.Message, "Dismiss");
+                        });
+
+                    }
+             
                 }
                
 
@@ -112,7 +178,7 @@ namespace ValmontApp.Mobile
             {
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await DisplayAlert("Authentication failed. See exception message for details: ", ex.Message, "Dismiss");
+                    await DisplayAlert("GetHttpContentWithTokenAsync failed. See exception message for details: ", ex.Message, "Dismiss");
                 });
             }
             Device.BeginInvokeOnMainThread(() =>
@@ -122,13 +188,20 @@ namespace ValmontApp.Mobile
         }
         private void UpdateUserContent(string content)
         {
+         
             if (!string.IsNullOrEmpty(content))
             {
-                var user = new UserContext(content);
+                var user = new UserContext(JArray.Parse(content).First?.ToString());
                 Device.BeginInvokeOnMainThread(() =>
                 {
-                    if (user.IsNew)
+                    if (user.IsLoggedOn == false)
                     {
+                        DisplayAlert("Authentication failed ", "", "Dismiss");
+
+                    }
+                    if (String.IsNullOrEmpty(user.QRCode))
+                    {
+                        App.ISNewUser = true;
                         Application.Current.MainPage = new UserDetailsPage(user);
                     }
                     else
@@ -154,6 +227,33 @@ namespace ValmontApp.Mobile
                 Device.BeginInvokeOnMainThread(async () =>
                 {
                     await DisplayAlert("API call to graph failed: ", ex.Message, "Dismiss").ConfigureAwait(false);
+                });
+                return ex.ToString();
+            }
+        }
+        public async Task<string> GetUserProfile(string email)
+        {
+            try
+            {
+                //get data from API
+                if (App.AuthenticationServiceToken != null)
+                {
+                     return await App.services.CreateOrGetUserProfileAsync(email, ServerHelper.CreateGetProfileURI());
+
+                }
+                else
+                {
+                    throw new Exception();
+                }
+             
+               
+
+            }
+            catch (Exception ex)
+            {
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await DisplayAlert("API failed: ", ex.Message, "Dismiss").ConfigureAwait(false);
                 });
                 return ex.ToString();
             }

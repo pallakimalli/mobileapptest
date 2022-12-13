@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KGVSvwBG7dFoufipcWVBAC3hBCmzhauP9Ga9BHzmx8yuQh8KBmjEjDh5ZJ7FOYkcJcy1act0dufUEd3Qc/e70g==",
+  "dgSpecHash": "b0uLXfmofdtvrkWDU0CSY20tCvmsyJ76VZr8TCAWUF9WkhyFc9cggJift0lvXWOBg0JflfU6NBrHNlDkF1ftQA==",
   "success": true,
-  "projectFilePath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
+  "projectFilePath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
   "expectedPackageFiles": [
     "/Users/vakhileshwar/.nuget/packages/microsoft.identity.client/4.48.0/microsoft.identity.client.4.48.0.nupkg.sha512",
     "/Users/vakhileshwar/.nuget/packages/microsoft.identitymodel.abstractions/6.22.0/microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",

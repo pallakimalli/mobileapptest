@@ -6,11 +6,11 @@
     <ContentView.Content>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="{OnPlatform Android=150, iOS= 200}" />
+                <RowDefinition Height="{OnPlatform Android=112, iOS= 150}" />
             </Grid.RowDefinitions>
-            <StackLayout Margin="20,0,20,0">
-                <Image Source="valmont_logo_white.png" Margin="{OnPlatform Android='0,30,0,0', iOS='0,80,0,0'}" />
-                <StackLayout Orientation="Horizontal" Margin="{OnPlatform Android='0,20,0,120', iOS='0,20,0,50'}"  HeightRequest="40">
+            <StackLayout  Margin="{OnPlatform Android='20,-20,20,0', iOS='20,0,20,0'}">
+                <Image Source="valmont_logo_white.png" Margin="{OnPlatform Android='0,30,0,0', iOS='0,50,0,0'}"/>
+                <StackLayout Orientation="Horizontal" Margin="{OnPlatform Android='0,10,0,120', iOS='0,10,0,50'}"  HeightRequest="40">
                     <Label x:Name="TitleLabel" Text="Welcome, "  TextColor="White" FontAttributes="Bold" FontFamily="robot" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"/>
                     <Button x:Name="LogoutButton" Text="Logout" TextColor="White" HorizontalOptions="EndAndExpand" Clicked="Logout_Tapped" />
                 </StackLayout>

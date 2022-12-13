@@ -4,81 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AppIcon20x20@2x.png</key>
-		<data>
-		s9/SzPcJ2gIuXQWnGuMxeBihc4g=
-		</data>
-		<key>AppIcon20x20@2x~ipad.png</key>
-		<data>
-		s9/SzPcJ2gIuXQWnGuMxeBihc4g=
-		</data>
-		<key>AppIcon20x20@3x.png</key>
-		<data>
-		wm6NHkNrDyCpD9fn9E+irB6oJ+g=
-		</data>
-		<key>AppIcon20x20~ipad.png</key>
-		<data>
-		IwLjlUxqUOoi48jXmpJ61Xghzcw=
-		</data>
-		<key>AppIcon29x29@2x.png</key>
-		<data>
-		KnO5oXVNz1whP50HSf3FerXFTas=
-		</data>
-		<key>AppIcon29x29@2x~ipad.png</key>
-		<data>
-		KnO5oXVNz1whP50HSf3FerXFTas=
-		</data>
-		<key>AppIcon29x29@3x.png</key>
-		<data>
-		Gj/gZfba9LKiK5dEJPzZ7U0v6EE=
-		</data>
-		<key>AppIcon29x29~ipad.png</key>
-		<data>
-		FH644Twe4d6mDITG4zlKGgN8bJU=
-		</data>
-		<key>AppIcon40x40@2x.png</key>
-		<data>
-		Uwfbt2lAajIMVl7V/UQ7jtv6aAQ=
-		</data>
-		<key>AppIcon40x40@2x~ipad.png</key>
-		<data>
-		Uwfbt2lAajIMVl7V/UQ7jtv6aAQ=
-		</data>
-		<key>AppIcon40x40@3x.png</key>
-		<data>
-		cuzgMWSf/KaioP+qYTxn2wkJ1Jo=
-		</data>
-		<key>AppIcon40x40~ipad.png</key>
-		<data>
-		s9/SzPcJ2gIuXQWnGuMxeBihc4g=
-		</data>
-		<key>AppIcon60x60@2x.png</key>
-		<data>
-		cuzgMWSf/KaioP+qYTxn2wkJ1Jo=
-		</data>
-		<key>AppIcon60x60@3x.png</key>
-		<data>
-		fNq4GkyhTp+MmrE+qAowcXaOgBI=
-		</data>
-		<key>AppIcon76x76@2x~ipad.png</key>
-		<data>
-		gw+M7Ufw+2cLc8xMuMlM8Jj4DfY=
-		</data>
-		<key>AppIcon76x76~ipad.png</key>
-		<data>
-		wutaj/J3cWEV5DfptMjob9v3qow=
-		</data>
-		<key>AppIcon83.5x83.5@2x~ipad.png</key>
-		<data>
-		moLnXldr4myralMXBhv1krjwo/M=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		NTHv3wbs0UkJcHdsMr3Wajqb+d8=
+		bKbQMrJW0hddaBQ4TyKTRLsZXL8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YVVhNnWAAWHlVwMoQBCAYcsY1b4=
+		gMpX5tREn73XuRLKUEpI5Tkt7ZM=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -90,7 +22,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib</key>
 		<data>
-		BSpG7CVM2E1EoNPREOH1aYvyqZg=
+		oywPKQYPLNvNLjmN3mqZ9FVQVy8=
 		</data>
 		<key>Microsoft.CSharp.dll</key>
 		<data>
@@ -270,19 +202,19 @@
 		</data>
 		<key>ValmontApp.Mobile.dll</key>
 		<data>
-		A7ZUo9qZwYI4uZCt6fJeFd0t7JM=
+		xTkWLRll1u/UuFSUMhsk609pinU=
 		</data>
 		<key>ValmontApp.Mobile.iOS.exe</key>
 		<data>
-		rZ8jbZraUFYm1se3dxEaq2yzbxY=
+		icgWF6t2BwbuXvOj+KuNALU008k=
 		</data>
 		<key>ValmontApp.Mobile.iOS.pdb</key>
 		<data>
-		uXgfAsY1LM8YchGIlEACpTZV9w8=
+		+xW66vks3dFjEkqr+7DKCes93dg=
 		</data>
 		<key>ValmontApp.Mobile.pdb</key>
 		<data>
-		Uv6gApafX210+5/38IM6VoTtZUU=
+		YkxLGGfY/3G7AwV7xV0VV+glEuo=
 		</data>
 		<key>Xamarin.Essentials.dll</key>
 		<data>
@@ -334,7 +266,7 @@
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
-		6CS9QhK8GvU5UOa+R10I34fMegY=
+		ydVg8FPPVSLdyMsRUqTeY+AjYAE=
 		</data>
 		<key>ca/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -358,7 +290,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		wZEkFLYXh1hexLigwcjvwf0+24A=
+		caQK2cpmCGYAVnWWVYxIVQ8Cg0w=
 		</data>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -491,202 +423,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AppIcon20x20@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			s9/SzPcJ2gIuXQWnGuMxeBihc4g=
-			</data>
-			<key>hash2</key>
-			<data>
-			CSQsgMBKl/wIO8pVT1yZL0rgkP+qhYr3qSYTtc2wc1Q=
-			</data>
-		</dict>
-		<key>AppIcon20x20@2x~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			s9/SzPcJ2gIuXQWnGuMxeBihc4g=
-			</data>
-			<key>hash2</key>
-			<data>
-			CSQsgMBKl/wIO8pVT1yZL0rgkP+qhYr3qSYTtc2wc1Q=
-			</data>
-		</dict>
-		<key>AppIcon20x20@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wm6NHkNrDyCpD9fn9E+irB6oJ+g=
-			</data>
-			<key>hash2</key>
-			<data>
-			vxRcuBG9EJW9lKrdF+PtOLSJ3eHozlitXp3gkLs1Vvg=
-			</data>
-		</dict>
-		<key>AppIcon20x20~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IwLjlUxqUOoi48jXmpJ61Xghzcw=
-			</data>
-			<key>hash2</key>
-			<data>
-			3pajumcMgWO6lO9Xi7iXuVGxTEdawf7KsGspevlnvW8=
-			</data>
-		</dict>
-		<key>AppIcon29x29@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KnO5oXVNz1whP50HSf3FerXFTas=
-			</data>
-			<key>hash2</key>
-			<data>
-			BM/uKzpP6zKne7lTyEU6C7QW9IkGqUSLXtw1XA1o2oY=
-			</data>
-		</dict>
-		<key>AppIcon29x29@2x~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KnO5oXVNz1whP50HSf3FerXFTas=
-			</data>
-			<key>hash2</key>
-			<data>
-			BM/uKzpP6zKne7lTyEU6C7QW9IkGqUSLXtw1XA1o2oY=
-			</data>
-		</dict>
-		<key>AppIcon29x29@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Gj/gZfba9LKiK5dEJPzZ7U0v6EE=
-			</data>
-			<key>hash2</key>
-			<data>
-			pb8IMNxs/79Whe4WsRyeBLCEZszh3dTJWY+a2OeVLG8=
-			</data>
-		</dict>
-		<key>AppIcon29x29~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FH644Twe4d6mDITG4zlKGgN8bJU=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZTo9dcQsAc5N1gwKoLWfbeVIoBai1wzJqqOl6WZOeMk=
-			</data>
-		</dict>
-		<key>AppIcon40x40@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Uwfbt2lAajIMVl7V/UQ7jtv6aAQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			U4ugTtKLfuw5F/oaMibksCP/wmO7diiRoqJeLJX585Q=
-			</data>
-		</dict>
-		<key>AppIcon40x40@2x~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Uwfbt2lAajIMVl7V/UQ7jtv6aAQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			U4ugTtKLfuw5F/oaMibksCP/wmO7diiRoqJeLJX585Q=
-			</data>
-		</dict>
-		<key>AppIcon40x40@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cuzgMWSf/KaioP+qYTxn2wkJ1Jo=
-			</data>
-			<key>hash2</key>
-			<data>
-			+vkI83+g63P1MdjEbvQi31IlK5vKc81ybsKZv5KFL7Y=
-			</data>
-		</dict>
-		<key>AppIcon40x40~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			s9/SzPcJ2gIuXQWnGuMxeBihc4g=
-			</data>
-			<key>hash2</key>
-			<data>
-			CSQsgMBKl/wIO8pVT1yZL0rgkP+qhYr3qSYTtc2wc1Q=
-			</data>
-		</dict>
-		<key>AppIcon60x60@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cuzgMWSf/KaioP+qYTxn2wkJ1Jo=
-			</data>
-			<key>hash2</key>
-			<data>
-			+vkI83+g63P1MdjEbvQi31IlK5vKc81ybsKZv5KFL7Y=
-			</data>
-		</dict>
-		<key>AppIcon60x60@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fNq4GkyhTp+MmrE+qAowcXaOgBI=
-			</data>
-			<key>hash2</key>
-			<data>
-			0R3mjDY1jMy7Fqgrp2RcOrbHVotM1fKfe3h584qZSV4=
-			</data>
-		</dict>
-		<key>AppIcon76x76@2x~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gw+M7Ufw+2cLc8xMuMlM8Jj4DfY=
-			</data>
-			<key>hash2</key>
-			<data>
-			i5iYKn3VK7rqVRXOBoHnsRgOrd+FWJzGomHFscmDNtk=
-			</data>
-		</dict>
-		<key>AppIcon76x76~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wutaj/J3cWEV5DfptMjob9v3qow=
-			</data>
-			<key>hash2</key>
-			<data>
-			FwsbIRng//WXEEU0q1C3wxuTDrdrJL/JvXUI4bSJvDA=
-			</data>
-		</dict>
-		<key>AppIcon83.5x83.5@2x~ipad.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			moLnXldr4myralMXBhv1krjwo/M=
-			</data>
-			<key>hash2</key>
-			<data>
-			7TKlESgQHNgfBWnyCfQVyiExVZH8RrHbVTPyVNTbbGk=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NTHv3wbs0UkJcHdsMr3Wajqb+d8=
+			bKbQMrJW0hddaBQ4TyKTRLsZXL8=
 			</data>
 			<key>hash2</key>
 			<data>
-			B3FAPfqbQd2XHvPZi89zXjaxq7nvAQTDdmXg/gSJgSE=
+			QfPbCU3tCYzYL769krDPrSlg/o+t4Hg0IPgiE5KIAjU=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -715,11 +460,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BSpG7CVM2E1EoNPREOH1aYvyqZg=
+			oywPKQYPLNvNLjmN3mqZ9FVQVy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			dAVZufKDpwxz9+BIc3hIZmuhzRy6mlekkw3z3+7kS3w=
+			pVKHDaLsZZFKI6L/JZK8Jkj+LcigJfyzW1+IvekQEik=
 			</data>
 		</dict>
 		<key>Microsoft.CSharp.dll</key>
@@ -1199,44 +944,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A7ZUo9qZwYI4uZCt6fJeFd0t7JM=
+			xTkWLRll1u/UuFSUMhsk609pinU=
 			</data>
 			<key>hash2</key>
 			<data>
-			IVJfPbm50Rt11f9nOqXnp1Dw+/jtuQ61tXiO1WQODo4=
+			MijZAt5oi+WcMdXzkI9qpVFzjZzZXNGzo1dWPybN4dA=
 			</data>
 		</dict>
 		<key>ValmontApp.Mobile.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rZ8jbZraUFYm1se3dxEaq2yzbxY=
+			icgWF6t2BwbuXvOj+KuNALU008k=
 			</data>
 			<key>hash2</key>
 			<data>
-			W1aCxPTp46lBrSMH5vn5TajqjYnHPXD/IOK/BK4ttgc=
+			qIDDVezXGsxesQT+2ImgP9pN7R2HXLnsxrS4k1JD/TA=
 			</data>
 		</dict>
 		<key>ValmontApp.Mobile.iOS.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uXgfAsY1LM8YchGIlEACpTZV9w8=
+			+xW66vks3dFjEkqr+7DKCes93dg=
 			</data>
 			<key>hash2</key>
 			<data>
-			wxlBOtAeHSuq1ycgcueFBzwsmomKloks9qAC0aEWMDs=
+			ymeFZI1AWHky+oD9d98HKBIn07SzJfmnwL6c90m9GEs=
 			</data>
 		</dict>
 		<key>ValmontApp.Mobile.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Uv6gApafX210+5/38IM6VoTtZUU=
+			YkxLGGfY/3G7AwV7xV0VV+glEuo=
 			</data>
 			<key>hash2</key>
 			<data>
-			UY28oXQlCH1Nbuc7oAMr7jv/rtl/6udkFbY0bn9pf5g=
+			QIISQfluNiIRU2I0It/GBhGyuJRE4fSZU749a1EtAL4=
 			</data>
 		</dict>
 		<key>Xamarin.Essentials.dll</key>
@@ -1375,11 +1120,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6CS9QhK8GvU5UOa+R10I34fMegY=
+			ydVg8FPPVSLdyMsRUqTeY+AjYAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			OYTDOZHKN6ud4iRotKoYdEWt9is8QHDFgsCTit8q8BQ=
+			DIY8uu8Ne4oK5L9r5guY+Cl1VZyrFLhO/XZ3ky6UTVQ=
 			</data>
 		</dict>
 		<key>ca/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1441,11 +1186,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wZEkFLYXh1hexLigwcjvwf0+24A=
+			caQK2cpmCGYAVnWWVYxIVQ8Cg0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			Orl5rJrwBJo7hRCeiaEtn3l2/6vKXgzu9vDxhKl2G+s=
+			v1gnkp9yRm+PQ7YNjYNnomPKUuuQ3s1LtuzrvXme95A=
 			</data>
 		</dict>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>

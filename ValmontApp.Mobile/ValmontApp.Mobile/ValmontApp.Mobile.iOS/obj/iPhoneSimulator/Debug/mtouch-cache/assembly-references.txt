@@ -1,4 +1,4 @@
-/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/bin/iPhoneSimulator/Debug/ValmontApp.Mobile.iOS.exe
+/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/bin/iPhoneSimulator/Debug/ValmontApp.Mobile.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.0.0.72/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.0.0.72/lib/mono/Xamarin.iOS/../../64bits/iOS/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.0.0.72/lib/mono/Xamarin.iOS/System.dll
@@ -22,7 +22,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.0.0.72/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/16.0.0.72/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/vakhileshwar/.nuget/packages/xamarin.forms/5.0.0.2196/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Debug/netstandard2.0/ValmontApp.Mobile.dll
+/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/bin/Debug/netstandard2.0/ValmontApp.Mobile.dll
 /Users/vakhileshwar/.nuget/packages/xamarin.forms/5.0.0.2196/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/vakhileshwar/.nuget/packages/microsoft.identity.client/4.48.0/lib/xamarinios10/Microsoft.Identity.Client.dll
 /Users/vakhileshwar/.nuget/packages/microsoft.identitymodel.abstractions/6.22.0/lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll

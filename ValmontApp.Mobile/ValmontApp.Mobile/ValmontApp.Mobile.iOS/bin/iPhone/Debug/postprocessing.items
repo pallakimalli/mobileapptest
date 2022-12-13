@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="ValmontApp.Mobile.iOS.app/ValmontApp.Mobile.iOS">
+      <BCSymbolMapName>ValmontApp.Mobile.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>false</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>false</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>ValmontApp.Mobile.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Debug/mtouch-symbols.list</SymbolFile>
+      <DSymName>ValmontApp.Mobile.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

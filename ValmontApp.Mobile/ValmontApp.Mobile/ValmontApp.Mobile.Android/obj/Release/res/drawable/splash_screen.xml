@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item><color android:color="@color/colorPrimary" /></item><item android:width="300dp" android:height="45dp" android:gravity="center"><bitmap android:src="@drawable/valmont_logo_white" android:tileMode="disabled" android:gravity="fill" /></item></layer-list>

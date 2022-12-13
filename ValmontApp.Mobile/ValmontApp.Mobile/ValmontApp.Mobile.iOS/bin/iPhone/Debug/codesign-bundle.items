@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_CodesignBundle Include="ValmontApp.Mobile.iOS.app">
+      <CodesignSigningKey>946070098BF1DBDA620F39CDA124DC149026B340</CodesignSigningKey>
+      <CodesignEntitlements>/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhone/Debug/Entitlements.xcent</CodesignEntitlements>
+      <CodesignUseSecureTimestamp></CodesignUseSecureTimestamp>
+      <CodesignAllocate>/Users/vakhileshwar/Desktop/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
+      <RequireCodeSigning>true</RequireCodeSigning>
+      <CodesignExtraArgs></CodesignExtraArgs>
+      <CodesignResourceRules></CodesignResourceRules>
+      <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
+      <CodesignKeychain></CodesignKeychain>
+      <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
+      <SourceProjectPath>/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS</SourceProjectPath>
+    </_CodesignBundle>
+  </ItemGroup>
+</Project>

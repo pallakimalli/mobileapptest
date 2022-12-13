@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1f16gIVrzoBYmzOAk1crYECVz+KbcS6c1Tmr7qiuQZIpf9mBDCWEQj/fcSpaBq+M4BzInwCf+l7ysm29PLs4A==",
+  "dgSpecHash": "fhK0vZ7qI/yFqEsGPuI0Q7hIInZbJSp76d1QmCbcDo4g97cUpR69Wi5BnSyyYNovOGPvBG3XNLDVe6qrnr/rWA==",
   "success": true,
-  "projectFilePath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj",
+  "projectFilePath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/vakhileshwar/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/vakhileshwar/.nuget/packages/microsoft.identity.client/4.48.0/microsoft.identity.client.4.48.0.nupkg.sha512",

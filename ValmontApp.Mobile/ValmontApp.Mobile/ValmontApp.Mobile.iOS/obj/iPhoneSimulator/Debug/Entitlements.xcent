@@ -2,17 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>application-identifier</key>
-	<string>AUR4FMZ8AZ.com.prokarma.ValmontApp-Mobile</string>
-	<key>get-task-allow</key>
-	<true/>
-	<key>com.apple.developer.team-identifier</key>
-	<string>AUR4FMZ8AZ</string>
 	<key>aps-environment</key>
 	<string>development</string>
+	<key>application-identifier</key>
+	<string>F2T7TPQHC7.com.valmont.businesscarddev</string>
+	<key>get-task-allow</key>
+	<false/>
+	<key>com.apple.developer.team-identifier</key>
+	<string>F2T7TPQHC7</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>AUR4FMZ8AZ.com.microsoft.adalcache</string>
+		<string>F2T7TPQHC7.com.microsoft.adalcache</string>
 	</array>
 </dict>
 </plist>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj": {}
+    "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj": {}
   },
   "projects": {
-    "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj": {
+    "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj",
+        "projectUniqueName": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj",
         "projectName": "ValmontApp.Mobile.iOS",
-        "projectPath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj",
+        "projectPath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/ValmontApp.Mobile.iOS.csproj",
         "packagesPath": "/Users/vakhileshwar/.nuget/packages/",
-        "outputPath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/",
+        "outputPath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj": {
-                "projectPath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj"
+              "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj": {
+                "projectPath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj"
               }
             }
           }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj": {
+    "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
+        "projectUniqueName": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
         "projectName": "ValmontApp.Mobile",
-        "projectPath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
+        "projectPath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.csproj",
         "packagesPath": "/Users/vakhileshwar/.nuget/packages/",
-        "outputPath": "/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/",
+        "outputPath": "/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vakhileshwar/.config/NuGet/NuGet.Config"

@@ -67,73 +67,125 @@
     <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DependencyServices\ConvertImageToPNG_iOS.cs" />
+    <Compile Include="DependencyServices\ImageCompressor_iOS.cs" />
+    <Compile Include="DependencyServices\ImageScaler_iOS.cs" />
+    <Compile Include="DependencyServices\ValidateImage_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DependencyServices\CustomRenderer.cs" />
+    <Compile Include="DependencyServices\CustomPickerRender.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon120.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon152.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon180.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon29.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon40.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon58.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon60.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon76.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon80.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+    <ImageAsset Include="Assets %28copy%29.xcassets\AppIcon.appiconset\Icon87.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\valmont_logo_white.imageset\valmont_logo_white 1.png" />
-    <ImageAsset Include="Assets.xcassets\valmont_logo_white.imageset\valmont_logo_white 2.png" />
-    <ImageAsset Include="Assets.xcassets\valmont_logo_white.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\valmont_logo_white.imageset\valmont_logo_white.png" />
-    <ImageAsset Include="Assets.xcassets\contact.imageset\contact.png" />
-    <ImageAsset Include="Assets.xcassets\contact.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\email.imageset\email.png" />
-    <ImageAsset Include="Assets.xcassets\email.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png" />
-    <ImageAsset Include="Assets.xcassets\contact.imageset\contact 2.png" />
-    <ImageAsset Include="Assets.xcassets\contact.imageset\contact 1.png" />
-    <ImageAsset Include="Assets.xcassets\email.imageset\email 2.png" />
-    <ImageAsset Include="Assets.xcassets\email.imageset\email 1.png" />
-    <ImageAsset Include="Assets.xcassets\phone.imageset\phone 2.png" />
-    <ImageAsset Include="Assets.xcassets\phone.imageset\phone 1.png" />
+    <ImageAsset Include="Assets %28copy%29.xcassets\contact.imageset\contact.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\contact.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\email.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\email.imageset\email.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\phone.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\phone.imageset\phone.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\qr.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\qr.imageset\qr 1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\qr.imageset\qr 2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\qr.imageset\qr.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\valmont_logo_white.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\valmont_logo_white.imageset\valmont_logo_white 1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\valmont_logo_white.imageset\valmont_logo_white 2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\valmont_logo_white.imageset\valmont_logo_white.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\telephone.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\telephone.imageset\telephone.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\profile.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\profile.imageset\profile.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\trash.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets %28copy%29.xcassets\trash.imageset\trash.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -153,5 +205,14 @@
       <Project>{76553B9C-BA4C-44DE-B459-2B19DFFBC510}</Project>
       <Name>ValmontApp.Mobile</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\close%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\close%403x.png" />
   </ItemGroup>
 </Project>

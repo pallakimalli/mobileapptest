@@ -20,9 +20,13 @@ namespace ValmontApp.Mobile {
         private global::ValmontApp.Mobile.CustomControls.CustomEntry EmailEntry;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ActivityIndicator activityIndicator;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LoginPage));
             EmailEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ValmontApp.Mobile.CustomControls.CustomEntry>(this, "EmailEntry");
+            activityIndicator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ActivityIndicator>(this, "activityIndicator");
         }
     }
 }

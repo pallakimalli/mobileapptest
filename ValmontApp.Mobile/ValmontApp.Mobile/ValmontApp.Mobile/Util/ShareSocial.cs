@@ -6,12 +6,12 @@ namespace ValmontApp.Mobile.Util
 {
     public class ShareSocial
     {
-        public static async Task ShareUri(string uri)
+        public static async Task ShareUri(Models.UserContext userContext)
         {
             await Share.RequestAsync(new ShareTextRequest
             {
-                Uri = uri,
-                Title = "Share"
+                Uri = userContext.profileURL,
+                Text = $"{userContext.GivenName} has shared a business card with you."
             });
         }
     }

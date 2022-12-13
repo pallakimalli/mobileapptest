@@ -4,6 +4,12 @@ using Xamarin.Forms.Xaml;
 using Microsoft.Identity.Client;
 using System.Net.Http;
 using ValmontApp.Mobile.Services;
+using ValmontApp.Mobile.Models;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Analytics;
+using Device = Xamarin.Forms.Device;
+using Microsoft.AppCenter.Crashes;
 
 namespace ValmontApp.Mobile
 {
@@ -12,8 +18,10 @@ namespace ValmontApp.Mobile
        
         public static Services.IRestServices services = null;
         public static ADAuthenticationService ADAuthenticationService = null;
+        public static string AuthenticationServiceToken = null;
+        public static bool ISNewUser = true;
 
-      
+
         public static object ParentWindow { get; set; }
 
   
@@ -33,6 +41,9 @@ namespace ValmontApp.Mobile
 
         protected override void OnStart ()
         {
+            AppCenter.Start("android=554f82a8-05b6-47f2-96d9-6cd02aed7c2d;" +
+                  "ios=44804b94-e460-4a6e-9a43-402eb47e17f5;",
+                  typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep ()

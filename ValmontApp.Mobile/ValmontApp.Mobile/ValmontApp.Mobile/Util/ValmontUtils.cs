@@ -1,5 +1,7 @@
 ﻿using System;
+using System.IO;
 using System.Threading.Tasks;
+using ValmontApp.Mobile.DependencyServices;
 using Xamarin.Forms;
 
 namespace ValmontApp.Mobile.Util
@@ -66,6 +68,28 @@ namespace ValmontApp.Mobile.Util
 
 
             }
+        }
+
+        public static string ConvertImageToPNG(string imageLocation)
+        {
+            string[] path = imageLocation.Split('/');
+            string directory = string.Empty;
+            string fileName = string.Empty;
+            int i = 0;
+            foreach (string s in path)
+            {
+                if (i == path.Length - 1)
+                {
+                    fileName = s;
+                    break;
+                }
+                directory = directory + s + "/";
+                i++;
+            }
+
+            fileName = fileName.Replace(".jpg", ".png");
+
+            return DependencyService.Get<IConvertImageToPNG>().ConvertImageToPNG(directory, fileName, imageLocation);
         }
     }
 }

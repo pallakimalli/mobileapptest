@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.prokarma.valmontapp_mobile" android:versionName="0.2" android:versionCode="1">
-	<uses-sdk android:minSdkVersion="25" android:targetSdkVersion="33" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.prokarma.valmontapp_mobile" android:versionName="0.26" android:versionCode="1" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="25" android:targetSdkVersion="31" />
 	<application android:label="ValmontApp.Mobile.Android" android:theme="@style/MainTheme">
 		<activity android:name="microsoft.identity.client.BrowserTabActivity" android:configChanges="orientation|screenSize" android:exported="true">
 			<intent-filter>
@@ -10,6 +10,10 @@
 				<data android:scheme="msal750bd4fc-f00b-4b24-b5df-8d0be6cf843a" android:host="auth" />
 			</intent-filter>
 		</activity>
+		<provider android:name="androidx.core.content.FileProvider" android:authorities="${applicationId}.fileprovider" android:exported="false" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
+		</provider>
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CAMERA" />
 </manifest>

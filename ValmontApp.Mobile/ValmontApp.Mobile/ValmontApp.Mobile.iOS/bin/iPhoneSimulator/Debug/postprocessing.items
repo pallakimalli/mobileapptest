@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>ValmontApp.Mobile.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
       <DSymName>ValmontApp.Mobile.iOS.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/vakhileshwar/Documents/valmont/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS</SourceProjectPath>
+      <SourceProjectPath>/Users/vakhileshwar/Documents/valm-xam/Valmont-app-mobile/ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.iOS</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

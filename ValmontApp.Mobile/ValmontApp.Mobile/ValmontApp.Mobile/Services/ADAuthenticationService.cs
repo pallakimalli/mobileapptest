@@ -33,6 +33,7 @@ namespace ValmontApp.Mobile.Services
         }
         public static async Task<AuthenticationResult> AcquireTokenSilent()
         {
+
             AuthenticationResult authResult = null;
             IEnumerable<IAccount> accounts = await PCA.GetAccountsAsync().ConfigureAwait(false);
             try
@@ -61,15 +62,12 @@ namespace ValmontApp.Mobile.Services
                 iOSHidePrivacyPrompt = true,
             };
 
+
             builder.WithSystemWebViewOptions(systemWebViewOptions);
             builder.WithUseEmbeddedWebView(false);
 
             return await builder.ExecuteAsync().ConfigureAwait(false);
         }
-
-
-
-        
     }
 }
 
