@@ -10,18 +10,24 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v3
-    
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    - name: Setup .NET Core SDK 5.0.x
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '5.0.x'
+      - name: Setup Android signing
+        run: (echo ${{ secrets.KEYSTORE_KEY }} | base64 --decode) > ./ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.Android/CertPath
+        
+      - name: Set Android version
+        uses: damienaicheh/update-android-version-manifest-action@v1.0.0
+        with:
+          android-manifest-path: ./ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.Android/Properties/AndroidManifest.xml
+          version-name: ${{ secrets.APP_VERSION }}
+          version-code: ${{ github.run_number }}
+          print-file: true
 
-    - name: Install dependencies
-      run: nuget restore ./ValmontApp.Mobile/ValmontApp.Mobile.sln
-
-    - name: Build
-      run: msbuild ./ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.Android/ValmontApp.Mobile.Android.csproj /t:PackageForAndroid /p:Configuration=Release
+      - name: Restore NuGet packages
+        run: nuget restore
+        
+      - name: Build Android
+        run: MSBuild /t:SignAndroidPackage /p:Configuration=Release /p:AndroidPackageFormat=apk /p:AndroidKeyStore=true /p:AndroidSigningKeyAlias=keytemp /p:AndroidSigningKeyPass=${{ secrets.KEY_STORE_PASSWORD }} /p:AndroidSigningKeyStore=CertPath.jks /p:AndroidSigningStorePass=${{ secrets.KEY_STORE_PASSWORD }} ./ValmontApp.Mobile/ValmontApp.Mobile/ValmontApp.Mobile.Android/ValmontApp.Mobile.Android.csproj
  
    
