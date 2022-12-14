@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Microsoft.AppCenter.Analytics;
 using ValmontApp.Mobile.CustomControls;
 using ValmontApp.Mobile.Util;
 using ValmontApp.Mobile.ViewModels;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
@@ -291,6 +293,10 @@ namespace ValmontApp.Mobile.Views
         }
         void Save_Clicked(System.Object sender, System.EventArgs e)
         {
+            Analytics.TrackEvent("Save_Button Clicked", new Dictionary<string, string> {
+               { "Email", Preferences.Get("Email","")},
+                { "version",AppInfo.Version.ToString()},
+             });
             ValidateAndSaveProfileAsync();
         }
 

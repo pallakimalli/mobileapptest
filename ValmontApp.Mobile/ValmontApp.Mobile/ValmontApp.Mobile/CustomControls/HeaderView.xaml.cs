@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AppCenter.Analytics;
 using Microsoft.Identity.Client;
 using ValmontApp.Mobile.Services;
 using ValmontApp.Mobile.Views;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace ValmontApp.Mobile.CustomControls
@@ -38,6 +40,11 @@ namespace ValmontApp.Mobile.CustomControls
 
         void Logout_Tapped(System.Object sender, System.EventArgs e)
         {
+            Analytics.TrackEvent("Logout_Button Clicked", new Dictionary<string, string> {
+               { "Email", Preferences.Get("Email","")},
+                { "version",AppInfo.Version.ToString()},
+             });
+
             ADAuthenticationService.logout();
             Device.BeginInvokeOnMainThread(() =>
             {

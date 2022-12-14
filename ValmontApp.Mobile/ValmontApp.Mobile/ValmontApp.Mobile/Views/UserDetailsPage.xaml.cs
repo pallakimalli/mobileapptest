@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using ValmontApp.Mobile.CustomControls;
 using ValmontApp.Mobile.Models;
 using ValmontApp.Mobile.Util;
 using ValmontApp.Mobile.ViewModels;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace ValmontApp.Mobile.Views
@@ -147,6 +150,11 @@ namespace ValmontApp.Mobile.Views
         }
          void Manage_CliCked(System.Object sender, System.EventArgs e)
         {
+            Analytics.TrackEvent("Manage_Button Clicked", new Dictionary<string, string> {
+               { "Email", Preferences.Get("Email","")},
+                { "version",AppInfo.Version.ToString()},
+             });
+
             Navigation.PushModalAsync(new ManageProfilePage(UserContext, this));
         }
 

@@ -1,15 +1,19 @@
-﻿using Plugin.Media;
+﻿using Microsoft.AppCenter.Analytics;
+using Plugin.Media;
 using Plugin.Media.Abstractions;
 using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using ValmontApp.Mobile.DependencyServices;
 using ValmontApp.Mobile.Util;
+using Xamarin.Essentials;
 using Xamarin.Forms;
+using PermissionStatus = Plugin.Permissions.Abstractions.PermissionStatus;
 
 namespace ValmontApp.Mobile.ViewModels
 {
@@ -82,6 +86,11 @@ namespace ValmontApp.Mobile.ViewModels
 
         private void TrashClicked(object obj)
         {
+            Analytics.TrackEvent("Trash_Button Clicked", new Dictionary<string, string> {
+               { "Email", Preferences.Get("Email","")},
+                { "version",AppInfo.Version.ToString()},
+             });
+
             if (SelectedPictureFileLocation != null)
             {
                 SelectedPictureFileLocation = null;
@@ -98,6 +107,10 @@ namespace ValmontApp.Mobile.ViewModels
 
         private void CloseImagePopup(object obj)
         {
+            Analytics.TrackEvent("CloseImage_Button Clicked", new Dictionary<string, string> {
+               { "Email", Preferences.Get("Email","")},
+                { "version",AppInfo.Version.ToString()},
+             });
             IsChangeImagePopupVisible = false;
             PictureIcon = MainProfileImage;
         }
@@ -224,6 +237,11 @@ namespace ValmontApp.Mobile.ViewModels
 
         private void Upload(object obj)
         {
+            Analytics.TrackEvent("Upload_Button Clicked", new Dictionary<string, string> {
+               { "Email", Preferences.Get("Email","")},
+                { "version",AppInfo.Version.ToString()},
+             });
+
             if (SelectedPictureFileLocation != null)
             {
                 IsDeleteFromServer = false;

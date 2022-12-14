@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Input;
+using Microsoft.AppCenter.Analytics;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace ValmontApp.Mobile.ViewModels
@@ -17,6 +20,11 @@ namespace ValmontApp.Mobile.ViewModels
         }
         async private void ShareClicked(object obj)
         {
+            Analytics.TrackEvent("Share_Button Clicked", new Dictionary<string, string> {
+               { "Email", Preferences.Get("Email","")},
+                { "version",AppInfo.Version.ToString()},
+             });
+
             await Util.ShareSocial.ShareUri(_user);
 
         }

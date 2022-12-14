@@ -7,9 +7,9 @@ using ValmontApp.Mobile.Services;
 using ValmontApp.Mobile.Models;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
-using Microsoft.AppCenter.Analytics;
 using Device = Xamarin.Forms.Device;
 using Microsoft.AppCenter.Crashes;
+using Xamarin.Essentials;
 
 namespace ValmontApp.Mobile
 {
@@ -20,7 +20,7 @@ namespace ValmontApp.Mobile
         public static ADAuthenticationService ADAuthenticationService = null;
         public static string AuthenticationServiceToken = null;
         public static bool ISNewUser = true;
-
+        
 
         public static object ParentWindow { get; set; }
 

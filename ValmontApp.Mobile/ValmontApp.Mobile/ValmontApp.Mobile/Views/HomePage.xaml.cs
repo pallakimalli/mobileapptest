@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AppCenter.Analytics;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace ValmontApp.Mobile.Views
@@ -24,10 +26,20 @@ namespace ValmontApp.Mobile.Views
             base.OnAppearing();
             App.ISNewUser = false;
         }
-
+        public string getvalue(string key)
+        {
+            return Preferences.Get(key, "");
+        }
+     
 
         async void Profile_Clicked(System.Object sender, System.EventArgs e)
         {
+            
+            Analytics.TrackEvent("Profile_Button Clicked", new Dictionary<string, string> {
+               { "Email", Preferences.Get("Email","")},
+                { "version",AppInfo.Version.ToString()},
+             });
+
             activityIndicator.IsRunning = true;
             ContentGrid.IsEnabled = false;
             var user = await GetUserProfile(UserContext.EmailAddress);

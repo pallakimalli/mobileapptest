@@ -99,12 +99,13 @@ namespace ValmontApp.Mobile
             });
 
         }
-        Version version = AppInfo.Version;
 
+        Version version = AppInfo.Version;
         
 
         async void Signin_Tapped(System.Object sender, System.EventArgs e)
         {
+            Preferences.Set("Email", EmailEntry.Text);
             Analytics.TrackEvent("Login_Button Clicked", new Dictionary<string, string> {
                { "Email", EmailEntry.Text },
                 { "version",version.ToString()}
